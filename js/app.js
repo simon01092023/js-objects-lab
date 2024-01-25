@@ -10,11 +10,11 @@ const album1 = {
   // Exercise 1:  Update the title property of album1 from 'Talking Heads' to 'Talking Heads - 77', then assign that property to a variable named title
   
   
-  
+  album1.title = 'Talking Heads - 77';
   
   // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
   
-  
+  const label = album1.albumDetails.label
   
   
   const album2 = {
@@ -37,11 +37,17 @@ const album1 = {
   
   // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
   
+  album3.albumDetails.formats.push(album2.albumDetails.formats[0]);
+
+  console.log(album3)
+
+
   
   
   
   // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
   
+ album3.albumDetails.released = date {released: 'August 3, 1979' }
   
   
   
