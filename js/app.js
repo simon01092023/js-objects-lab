@@ -11,6 +11,8 @@ const album1 = {
   
   
   album1.title = 'Talking Heads - 77';
+
+  title = album1.title;
   
   // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
   
@@ -121,7 +123,7 @@ const album1 = {
   // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
   
   
-  album6.albumDetails.released = album7.albumDetail.released;
+  album6.albumDetails.released = album7.albumDetails.released;
   
   // Exercise 10:  Using the pre-defined variable named albumIdx below, assign the albumDetails object of the album located within the talkingHeadsAlbums array at the index represented by the value of albumIdx to a variable named albumDetails
   
